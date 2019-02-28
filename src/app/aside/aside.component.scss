@@ -1,0 +1,32 @@
+@import '../common/css/input.scss';
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar__menu {
+    margin-bottom: 40px;
+}
+
+.newsletter {
+    width: 220px;
+
+    .newsletter__desc {
+        margin-bottom: 10px;
+    }
+}
+
+.main-menu {
+    .main-menu__item {
+        list-style-type: none;
+    }
+
+    .main-menu__link {
+        text-decoration: none;
+        color: black;
+        font-size: 28px;
+        line-height: 42px;
+    }
+}

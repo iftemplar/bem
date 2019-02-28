@@ -1,0 +1,40 @@
+@import '../common/css/input.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 14px;
+}
+
+.logo {
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid yellow;
+    color: yellow;
+    background-color: black;
+    display: inline-block;
+
+    .logo__link {
+        color: yellow;
+        text-decoration: none;
+    }
+}
+
+.authorisation {
+    .auth__item {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        .auth__item-desc {
+            font-style: italic;
+            color: #750000;
+            margin-right: 10px;
+        }
+    }
+}
